@@ -22,7 +22,7 @@ function prependKitten(name){
   return newArr;
 }
 function removeLastKitten(){
-var newArr = [...kitens]
+var newArr = [...kittens]
 newArr.pop();
 return newArr;
 }
