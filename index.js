@@ -26,7 +26,7 @@ var newArr = [...kittens]
 newArr.pop();
 return newArr;
 }
-fun removeFirstKitten(){
+function removeFirstKitten(){
   var newArr = [...kittens]
   newArr.shift();
   return newArr;
