@@ -28,6 +28,6 @@ return newArr;
 }
 fun removeFirstKitten(){
   var newArr = [...kittens]
-  newArr.shift(0,1);
+  newArr.shift();
   return newArr;
 }
