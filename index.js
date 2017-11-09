@@ -24,5 +24,5 @@ function prependKitten(name){
 function removeLastKitten(){
 var newArr = [...kitens]
 newArr.pop();
-return newArr;  
+return newArr;
 }
