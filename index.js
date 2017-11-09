@@ -17,7 +17,6 @@ function appendCat(name){
   var newArr = [];
   newArr = kittens;
   newArr.push(name);
-  
+
   return newArr;
-  
 }
